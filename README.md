@@ -24,9 +24,11 @@ LastName_FirstName_CS480_Programming02.zip
 Sudoku is a combinatorial, logic-based, number-placement puzzle. In classic Sudoku, the objective is to fill a 9 × 9 grid with digits so that each column, each row, and each of the nine 3 × 3 sub-grids that compose the grid contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution (see Figure 1 below). [source: Sudoku - Wikipedia].
 
 a) unsolved Sudoku puzzle
+
 ![image](https://github.com/user-attachments/assets/d63d0331-520e-485a-9028-fd26536d13f3)
 
 b) solved Sudoku puzzle
+
 ![image](https://github.com/user-attachments/assets/7171f769-a7ff-4004-8824-62d903a54a33)
 
 Figure 1: Sudoku puzzle: (a) unsolved, (b) solved [source: Sudoku - Wikipedia].
