@@ -65,7 +65,7 @@ If the number of arguments provided is NOT two (none, one, or more than two) or 
 
 ERROR: Not enough/too many/illegal input arguments.
 
-	and exit.
+and exit.
 
 - Load and process input data file specified by the FILENAME argument (assume that input data file is ALWAYS in the same folder as your code - this is REQUIRED!).
 
@@ -79,15 +79,23 @@ ERROR: Not enough/too many/illegal input arguments.
 	
 	Input puzzle:
 
-	X,6,X,2,X,4,X,5,X
-	4,7,X,X,6,X,X,8,3
-	X,X,5,X,7,X,1,X,X
-	9,X,X,1,X,3,X,X,2
-	X,1,2,X,X,X,3,4,X
-	6,X,X,7,X,9,X,X,8
-	X,X,6,X,8,X,7,X,X
-	1,4,X,X,9,X,X,2,5
-	X,8,X,3,X,5,X,9,X
+		X,6,X,2,X,4,X,5,X
+	
+		4,7,X,X,6,X,X,8,3
+	  
+		X,X,5,X,7,X,1,X,X
+	
+		9,X,X,1,X,3,X,X,2
+	  
+		X,1,2,X,X,X,3,4,X
+	
+		6,X,X,7,X,9,X,X,8
+	  
+		X,X,6,X,8,X,7,X,X
+	
+		1,4,X,X,9,X,X,2,5
+	  
+		X,8,X,3,X,5,X,9,X
 	
 	
 	Number of search tree nodes generated: AAAA
@@ -95,15 +103,23 @@ ERROR: Not enough/too many/illegal input arguments.
 
 	Solved puzzle:
 	
-	8,6,1,2,3,4,9,5,7
-	4,7,9,5,6,1,2,8,3
-	3,2,5,9,7,8,1,6,4
-	9,5,8,1,4,3,6,7,2
-	7,1,2,8,5,6,3,4,9
-	6,3,4,7,2,9,5,1,8
-	5,9,6,4,8,2,7,3,1
-	1,4,3,6,9,7,8,2,5
-	2,8,7,3,1,5,4,9,6
+		8,6,1,2,3,4,9,5,7
+	  
+		4,7,9,5,6,1,2,8,3
+	  
+		3,2,5,9,7,8,1,6,4
+	  
+		9,5,8,1,4,3,6,7,2
+	  
+		7,1,2,8,5,6,3,4,9
+	  
+		6,3,4,7,2,9,5,1,8
+	  
+		5,9,6,4,8,2,7,3,1
+	  
+		1,4,3,6,9,7,8,2,5
+	  
+		2,8,7,3,1,5,4,9,6
 
 	where:
 
@@ -127,15 +143,23 @@ if it is not correct.
 ## Input data file:
 Your input data file is a single CSV (comma separated values) file containing the Sudoku puzzle grid (see Programming Assignment #02 folder in Blackboard for sample files). The file structure is as follows:
 
-X,6,X,2,X,4,X,5,X
-4,7,X,X,6,X,X,8,3
-X,X,5,X,7,X,1,X,X
-9,X,X,1,X,3,X,X,2
-X,1,2,X,X,X,3,4,X
-6,X,X,7,X,9,X,X,8
-X,X,6,X,8,X,7,X,X
-1,4,X,X,9,X,X,2,5
-X,8,X,3,X,5,X,9,X
+	X,6,X,2,X,4,X,5,X
+	
+	4,7,X,X,6,X,X,8,3
+	
+	X,X,5,X,7,X,1,X,X
+	
+	9,X,X,1,X,3,X,X,2
+	
+	X,1,2,X,X,X,3,4,X
+	
+	6,X,X,7,X,9,X,X,8
+	
+	X,X,6,X,8,X,7,X,X
+	
+	1,4,X,X,9,X,X,2,5
+	
+	X,8,X,3,X,5,X,9,X
 
 You CANNOT modify nor rename input data files. Rows and columns in those files represent individual rows and columns of the puzzle grid as shown on Figure 1. You can assume that file structure is correct without checking it.
 
