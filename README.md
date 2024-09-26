@@ -197,45 +197,15 @@ In conclusion, all three modes achieve correct answers to every puzzle, except t
 
 ### Time Complexity
 - Brute Force Search
+  
 : O(981). Since there are 9*9=81 grids and a domain for each cell is integers from 1 to 9. Therefore, the complexity becomes O(981) in the worst case.
 
 - CSP with back-tracking
+  
 : O(9n). (n: the number of empty cells)
 In the worst case, it checks every value in the domain, which is composed of 9 numbers. Therefore, it becomes O(9n).
 
 - CSP with forward-checking and MRV heuristics
+  
 : O(9n). (n: the number of empty cells)
 In the worst case, it checks every value in the domain no matter what heuristics it adopts, which is composed of 9 numbers. Therefore, it becomes O(9n).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/8a3c662f-1d58-432e-8b97-5eb37c75aac3)
